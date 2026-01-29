@@ -1,6 +1,6 @@
 # HOOKING-PRENIUM
 
-File này làm nổi bật các tính năng chính như Hooking, Deobfuscate, Request Mocking và EXE Unpacking.
+Các tính năng chính như Hooking, Deobfuscate, Request Mocking và EXE Unpacking.
 
 🪝 HookLibrary (PREMIUM)
 

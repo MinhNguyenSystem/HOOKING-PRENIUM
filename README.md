@@ -1,5 +1,10 @@
 # HOOKING-PRENIUM
+## Language Selection / Chọn Ngôn Ngữ
 
+- [English](#english)
+- [Tiếng Việt](#ti%E1%BA%BFng-vi%E1%BB%87t)
+
+---
 Các tính năng chính như Hooking, Deobfuscate, Request Mocking và EXE Unpacking.
 
 🪝 HookLibrary (PREMIUM)

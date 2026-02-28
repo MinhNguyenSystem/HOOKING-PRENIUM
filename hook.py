@@ -2135,6 +2135,7 @@ try:
                         elif CHE_DO.upper() == 'C':
                             DATA_CONVERT = {
                                 'config': {
+                                    r"b'\x4c\x0e\x0d\x0a'": 'py3_15',
                                     r"b'\xcd\r\r\n\x00\x00\x00\x00\tq\x98d\x0b\x00\x00\x00'": 'py3_14',
                                     r"b'\xcc\r\r\n\x00\x00\x00\x00\tq\x98d\x0b\x00\x00\x00'": 'py3_13',
                                     r"b'\xcb\r\r\n\x00\x00\x00\x00\tq\x98d\x0b\x00\x00\x00'": 'py3_12',
@@ -2708,4 +2709,5 @@ try:
     __import__('msvcrt').getch()
 except:pass
 __import__('sys').exit()
+
 
